@@ -1,2 +1,4 @@
 # home-assistant
-Fichero instalación
+Fichero instalación - Docker compose
+
+Puerto en  "localhost:8123"
