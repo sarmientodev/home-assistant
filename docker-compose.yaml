@@ -9,7 +9,7 @@ services:
       - "8123"
     environment:
       - TZ='Europe/Madrid'
-      - DISABLE_JEMALLOC=true
+      - DISABLE_JEMALLOC=false
     volumes:
       - ./app_config:/config
     restart: unless-stopped
