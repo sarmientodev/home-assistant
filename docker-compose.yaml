@@ -10,7 +10,7 @@ services:
     environment:
       - TZ='Europe/Madrid'
     volumes:
-      - ./:/config
+      - ./config:/config
       - /etc/localtime:/etc/localtime:ro
     restart: unless-stopped
     privileged: true
